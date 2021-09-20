@@ -3,3 +3,65 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+header a {
+  background: lightgrey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: small;
+}
+
+#featured-property p {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#details {
+  border: solid black 1px;
+  background: cornsilk;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* .box-one,
+.box-two,
+.box-three,
+.box-four {
+  float: left;
+  border: solid 1px black;
+} */
+
+.box-one {
+  float: left;
+  padding: 5%;
+}
+
+.box-two {
+  float: left;
+  padding: 5%;
+}
+
+.box-three {
+  float: left;
+  padding: 5%;
+}
+
+.box-four {
+  padding: 5%;
+}
